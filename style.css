@@ -1,0 +1,66 @@
+body {
+  font-family: space grotesk;
+  font-size: 20px;
+  line-height: 20px;
+  background-color: blue;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: space mono;
+  color: blanchedalmond;
+  font-size: 30px;
+  line-height: 30px;
+}
+li {
+  display: inline;
+}
+ul {
+  padding: 0;
+}
+#profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+a {
+  text-decoration: none;
+  color: orange;
+  font-size: 20px;
+  transition: 0.3s ease
+}
+a:hover {
+  color: yellow;
+}
+.card {
+  background-color: midnightblue;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 2%;
+  border: 1px solid blanchedalmond;
+}
+.container{
+  width: 380px;
+  margin: 25px auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
